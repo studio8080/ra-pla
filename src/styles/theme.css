@@ -1,0 +1,15 @@
+:root {
+  --primary: #f2b800;
+  --accent: #e8431a;
+  --background: #fffbf0;
+  --card: #fffefc;
+  --foreground: #1c1008;
+  --muted: #f5edd0;
+  --border: rgba(28, 16, 8, 0.18);
+  --green: #2f7d52;
+  --blue: #3569a8;
+  --pink: #da4e73;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "M PLUS 1p", system-ui, sans-serif;
+}

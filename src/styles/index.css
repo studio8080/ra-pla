@@ -1,0 +1,26 @@
+@import "./fonts.css";
+@import "./theme.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    linear-gradient(rgba(28, 16, 8, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(28, 16, 8, 0.035) 1px, transparent 1px),
+    var(--background);
+  background-size: 22px 22px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
